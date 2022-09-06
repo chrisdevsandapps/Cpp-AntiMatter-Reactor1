@@ -8,7 +8,13 @@ using namespace std;
 
 int main(){
 
+    string x1 = "This app will determine your investment result after 10 years";
+    string x2 = "Please input investment amount, and interest rate";
+
     float investment, interest, total;
+
+    cout << x1 << endl;
+    cout << x2 << endl; 
 
     cout << "How Much to Invest : ";
     cin >> investment;

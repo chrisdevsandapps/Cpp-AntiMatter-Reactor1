@@ -1,5 +1,10 @@
 
-
+/*
+* CLI test
+*
+*
+*
+*/
 
 
 #include<cstdlib>
@@ -9,7 +14,8 @@
 
 int main(int argc, char* argv[]) {
 
-    std::cout << "hello world" << std::endl;
+    std::cout << "command line argument" << std::endl;
+    std::cout << "put anny words on the cli" << std::endl;
 
     if (argc != 1) {
         std::cout << "you entered " << argc << " arguments\n";
